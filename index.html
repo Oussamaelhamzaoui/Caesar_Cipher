@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar</title>
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <h1>Welcome to Ceasar algorithme</h1>
+
+    <div class="container">
+        <fieldset class="inputData">
+            <legend>Message Before Encryption</legend>
+            <label for="inputText"></label>
+            <textarea name="inputText" id="inputText" cols="30" rows="10"></textarea>
+        </fieldset>
+        
+        <br>
+
+
+        <fieldset id="KEY">
+            <legend>Enter the encryption KEY</legend>
+            <label for="inputKey"></label>
+            <input type="number" name="inputKey" id="inputKey" />
+            <button id="button" onclick="caesarScript()">Crypt now</button>
+            
+        </fieldset>
+
+
+        <br>
+
+
+        <fieldset class="resultData">
+            <legend>Message After Encryption</legend>
+            <textarea  id="resultText" cols="30" rows="10"></textarea>
+        </fieldset>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
